@@ -1,0 +1,52 @@
+body {
+    background-color: beige;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#toDoContent {
+    display: block;
+    width: 33%;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+#toDoForm {
+    border: solid 2px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#toDoForm input {
+    background-color: rgba(233, 197, 78, 0.592);
+}
+
+#toDoForm input:focus {
+    background-color: rgb(255, 255, 255);
+}
+
+#toDoForm button {
+    background-color: rgb(228, 203, 118);
+    padding: 6px 16px;
+    border-radius: 8px;
+}
+
+
+#listToDo {
+    border-radius: 15px;
+    background-color: rgb(229, 219, 184);
+}
+
+#listDone {
+    border-radius: 15px;
+    background-color: rgb(229, 219, 184);
+}
+
+#listToDo button, #listDone button {
+    background-color: rgb(228, 203, 118);
+    padding: 4px 12px;
+}
+
+#messages {
+    margin: 15px auto;
+    color: red;
+}
